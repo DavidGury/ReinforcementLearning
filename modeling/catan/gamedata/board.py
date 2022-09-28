@@ -5,11 +5,6 @@ import numpy.typing as npt
 from typing import Protocol
 
 
-DEFAULT_SPACE = Space.Null
-DEFAULT_ENV = Environment.Sea
-ROBBER_START = Terrain.Desert
-
-
 class TileInfo(Protocol):
     space: Space
     env: Environment
